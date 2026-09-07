@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Introduction – Cours d'organologie L2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours d’organologie L2</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Références</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#définitions" id="toc-définitions" class="nav-link active" data-scroll-target="#définitions"><span class="header-section-number">1.1</span> Définitions</a>
+  <ul class="collapse">
+  <li><a href="#organologie" id="toc-organologie" class="nav-link" data-scroll-target="#organologie"><span class="header-section-number">1.1.1</span> Organologie</a></li>
+  <li><a href="#instrument-de-musique" id="toc-instrument-de-musique" class="nav-link" data-scroll-target="#instrument-de-musique"><span class="header-section-number">1.1.2</span> Instrument de musique</a></li>
+  <li><a href="#classification" id="toc-classification" class="nav-link" data-scroll-target="#classification"><span class="header-section-number">1.1.3</span> Classification</a></li>
+  </ul></li>
+  <li><a href="#quelques-classifications-instrumentales-endogènes" id="toc-quelques-classifications-instrumentales-endogènes" class="nav-link" data-scroll-target="#quelques-classifications-instrumentales-endogènes"><span class="header-section-number">1.2</span> Quelques classifications instrumentales endogènes</a>
+  <ul class="collapse">
+  <li><a href="#dans-les-société-de-tradition-orale" id="toc-dans-les-société-de-tradition-orale" class="nav-link" data-scroll-target="#dans-les-société-de-tradition-orale"><span class="header-section-number">1.2.1</span> Dans les société de tradition orale</a></li>
+  <li><a href="#dans-les-société-de-tradition-écrite" id="toc-dans-les-société-de-tradition-écrite" class="nav-link" data-scroll-target="#dans-les-société-de-tradition-écrite"><span class="header-section-number">1.2.2</span> Dans les société de tradition écrite</a></li>
+  </ul></li>
+  <li><a href="#vers-une-classification-universelle-des-instruments-de-musique" id="toc-vers-une-classification-universelle-des-instruments-de-musique" class="nav-link" data-scroll-target="#vers-une-classification-universelle-des-instruments-de-musique"><span class="header-section-number">1.3</span> Vers une classification universelle des instruments de musique ?</a></li>
+  <li><a href="#conclusion-à-lintroduction" id="toc-conclusion-à-lintroduction" class="nav-link" data-scroll-target="#conclusion-à-lintroduction"><span class="header-section-number">1.4</span> Conclusion à l’introduction</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Faire de la recherche sur les instruments de musique, c’est comme si on repartais du pénultième chapitre du roman Exquise planète. Depuis une planète très loin de la terre, nous observons une étrange forme de vie. Ces bipèdes vivant sur la lointaine planète bleue utilisent d’étrangent objets autours desquels ils se regroupent, tournent en rond en se tenant les mains. Ils peuvent aussi s’asseoir pour regarder un congénère utiliser l’un de ces objets tout seul au centre d’une pièce. Comment parler de ces objets ?</p>
+</div>
+</div>
+<section id="définitions" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="définitions"><span class="header-section-number">1.1</span> Définitions</h2>
+<blockquote class="blockquote">
+<p>”Il ne faut pas surestimer le pouvoir des définitions dans le domaine des sciences humaines et de la philosophie : les définitions qui prétendent capturer leur objet tendent plus souvent à clore la réflexion qu’à l’ouvrir.” <span class="citation" data-cites="seveLinstrumentMusiqueEtude2013">(<a href="references.html#ref-seveLinstrumentMusiqueEtude2013" role="doc-biblioref">Sève 2013</a>)</span></p>
+</blockquote>
+<section id="organologie" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="organologie"><span class="header-section-number">1.1.1</span> Organologie</h3>
+<p>Étymologiquement, l’organologie vient de <em>organon</em> (instrument [au sens large]) + <em>logos</em> (compte rendu, explication, justification).</p>
+<p>Dans le <a href="https://www.oed.com/search/dictionary/?scope=Entries&amp;q=organology">Oxford English Dictionnary</a>, l’organologie est définie comme : “l’étude de l’histoire des instruments de musique”. Il s’agit néanmoins d’une définition très contraignante qui ne reflète pas la pluralité du travail organologique. Cette définition problématique est contrée par la musicologue Rachel Durkin :</p>
+<blockquote class="blockquote">
+<p>“L’organologie se trouve être une discipline tournée vers l’extérieur et dont les méthodes sont plutôt progressistes” <span class="citation" data-cites="durkinOrganologyIntroductionOrganology2024">(<a href="references.html#ref-durkinOrganologyIntroductionOrganology2024" role="doc-biblioref">Durkin 2024</a>)</span></p>
+</blockquote>
+<p>Pour comprendre le vaste champs de l’organologie, il est absolument nécessaire de se demander ce qu’est un instrument de musique.</p>
+</section>
+<section id="instrument-de-musique" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="instrument-de-musique"><span class="header-section-number">1.1.2</span> Instrument de musique</h3>
+<p>Pour ce cours, j’utiliserai la définition de l’instrument de musique proposée par Hervé Lacombe. Elle comporte un problème majeur que je ne relèverai pas dans le cadre de ce cours (vous pouvez essayer de le trouver) mais elle est suffisante pour ce semestre.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Définition : Instrument de musique
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Un instrument de musique est un objet (au sens large) servant à produire du son pour faire de la musique, que cet objet soit construit pour cette destination précise ou qu’il soit détourné” <span class="citation" data-cites="lacombeLinstrumentMusiqueIdentite2011">(<a href="references.html#ref-lacombeLinstrumentMusiqueIdentite2011" role="doc-biblioref">Lacombe 2011</a>)</span></p>
+</div>
+</div>
+<p>À partir de cette définition, il propose une typologie des objets musicaux que j’aimerais vous détailler ici :</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD
+
+Instrument["Instrument de musique"]
+Objet["Objet construit pour faire de la musique"]
+Objet_D["Objet détourné"]
+Son_nn_m["Producteur de son non-musical"]
+Pas_son["ne produisant pas normalement de son"]
+Machine["Machines non musicales"]
+
+Instrument --&gt; Objet
+Instrument --&gt; Objet_D
+
+Objet_D --&gt; Naturel
+Objet_D --&gt; Fabriqué
+
+Fabriqué --&gt; Pas_son
+Fabriqué --&gt; Son_nn_m
+Fabriqué --&gt; Machine
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Les objets construits pour faire de la musique ne nécessitent pas plus d’explication ici. Il s’agit simplement de ce qui est appelé “instrument de musique” dans le langage courant : violon, piano, vièle à roue etc.</p>
+<p>Un objet détourné naturel peut être une pierre sur laquelle on frappe, un roseau dans lequel on souffle ou tout autre objet trouvable dans la nature dont on peut se servir pour faire de la musique.</p>
+<p>Les objets détournés fabriqués sont peut-être la catégorie la plus intéressante dans cette typologie :</p>
+<ul>
+<li>Ne produisant pas normalement de son : on peut penser ici aux cuillères qui peuvent être frappées entre elles, à une caisse de transport ou un bidon sur lequel on frappe.</li>
+<li>Producteur de son non musical : se trouvent dans cette catégorie les sirènes et autres avertisseurs sonores qui ont pu être utilisés par certains compositeurs.</li>
+<li>Machines non musicales : tombent sous cette catégorie l’ensemble de ce qu’on appelle communément “bruit” de machines (moteurs, marteaux piqueurs etc.) qui, eux aussi peuvent être utilisés en contexte musical.</li>
+</ul>
+<p>Il me semble pertinent de mettre en rapport cette typologie de l’instrument avec la dualité distinguée par Bernard Sève <span class="citation" data-cites="seveLinstrumentMusiqueEtude2013">(<a href="references.html#ref-seveLinstrumentMusiqueEtude2013" role="doc-biblioref">Sève 2013, 66–69</a>)</span>&nbsp;:</p>
+<ul>
+<li><strong>Corps physique</strong>&nbsp;: c’est l’instrument en tant que tel, l’instrument comme objet. C’est cette dans cette corporéité que se situe la typologie d’Hervé Lacombe.</li>
+<li><strong>Corps musica</strong>l&nbsp;: c’est un corps non-physique de l’instrument, il s’exprime uniquement lorsqu’un interprète joue sur son instrument. Imaginez que je mette un enfant de 2 ans à un piano. Bien qu’objet construit pour faire de la musique, la méconnaissance technique de l’enfant ne permettra pas d’exprimer le corps musical de l’instrument.</li>
+</ul>
+<p>c’est cette imbrication des deux corps de l’instrument de musique qui permet au philosophe d’écrire cette phrase que je trouve magnifique :</p>
+<blockquote class="blockquote">
+<p>“Apprendre à jouer d’un instrument, c’est construire ou découvrir, dans le corps physique de l’instrument, son corps musical” <span class="citation" data-cites="seveLinstrumentMusiqueEtude2013">(<a href="references.html#ref-seveLinstrumentMusiqueEtude2013" role="doc-biblioref">Sève 2013, 69</a>)</span></p>
+</blockquote>
+<p>Une fois définie la typologie de l’instrument on peut observer, selon Hervé Lacombe, différentes identités de l’instrument&nbsp;:</p>
+<ul>
+<li><strong>Identité objet</strong>&nbsp;: cette identité permet à un observateur de reconnaitre un instrument par sa forme. Je vois un violon et je reconnais que c’est un violon.</li>
+<li><strong>Identité acoustique</strong>&nbsp;: Je suis capable de reconnaitre un instrument par l’audition. C’est la compétence mise en œuvre dans un commentaire d’écoute lorsqu’il faut identifier l’effectif.</li>
+<li><strong>Identité structurelle sonore</strong>&nbsp;: ce qui rend possible la capacité sonore initiale, c’est l’assemblement des différentes parties de l’instrument, leurs formes et les interactions entre elles.</li>
+<li><strong>Identité technique</strong>&nbsp;: par la facture de l’instrument, il offre des possibilités techniques particulières&nbsp;: je ne demande pas à un violon d’utiliser les modes de jeux du cor.</li>
+<li><strong>Identité stylistique et fonctionnelle</strong>&nbsp;: l’instrument est utilisé de différentes manières et utilise différentes techniques en fonction du style et des époques&nbsp;: je ne fais pas de <em>pizz. bartok</em> chez Bach.</li>
+<li><strong>Identité socio-historique</strong>&nbsp;: l’instrument porte une signification sociale et peut agir comme marqueur historique.</li>
+<li><strong>Identité poétique</strong>&nbsp;: l’instrument porte un imaginaire individuel et collectif. Le cor anglais est communément associé au pastoralisme, l’orgue à la religiosité etc.</li>
+<li><strong>Identité répertoire</strong>&nbsp;: L’instrument est lié au répertoire écrit pour lui&nbsp;: <a href="https://www.youtube.com/watch?v=6GQLHwBYY7g">les concertos pour guimbarde d’Albrechtsberger</a> sont de grands concertos pour guimbarde.</li>
+</ul>
+<p>L’instrument est aussi en lien avec plusieurs couches temporelles&nbsp;:</p>
+<ul>
+<li><strong>Temps interne</strong> de la pièce musicale&nbsp;: L’instrument joue une pièce dans laquelle le temps est borné de la première à la dernière mesure.</li>
+<li><strong>Temps externe</strong>&nbsp;: temps qui se déroule hors de la salle de concert, hors du jeu et durant lequel l’instrument continue d’exister.</li>
+</ul>
+<p>L’instrument en lui même se trouve aussi traversé par deux temporalité&nbsp;:</p>
+<ul>
+<li><strong>Instrument générique</strong>&nbsp;: l’histoire du hautbois remontant aux aérophones à anches doubles de l’antiquité.</li>
+<li><strong>Instrument singulier</strong>&nbsp;: c’est l’histoire de tel hautbois joué par tel facteur en telle année.</li>
+</ul>
+<p>L’ensemble de ces considérations&nbsp;: typologie de l’objet musical, double corporéïté, multiplicité des identités de l’instrument, différentes couches temporelles dans lesquelles il s’inscrit etc. sont autant de point d’analyse possibles de l’instrument de musique. On comprend alors toute la dimension que prend l’analyse de l’instrument de musique et la grande pluralité de sujets de recherches possibles en partant d’un même instrument.</p>
+</section>
+<section id="classification" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="classification"><span class="header-section-number">1.1.3</span> Classification</h3>
+<p>Les classifications sont néanmoins l’une des principales tâches de l’organologue et comprendre comment classer peut aussi servir à n’importe quel musicien (entendu au sens le plus large) qui souhaiterai comprendre comment retrouver un instrument dans des collections notamment muséales.</p>
+<p>La classification est une activité naturelle de l’esprit humain. Dire ceci est un fruit et ceci est un légume est une classification.</p>
+<p>Les manières de classer sont infinies et dépendent des critères utiliser pour le classement. Je peux par exemple classer selon la technique de jeu ou du mode de production du son. En obtenant des résultats différents. Dans la première manière – suivant le mode de jeu – le piano et l’orgue sont dans la même boîte alors que suivant le mode de production du son, ils sont séparés.</p>
+<p>Ici, il ne s’agit pas de choisir si mes livres doivent être classés par tailles, sujet, éditeur, auteurs, couleurs etc. qui est un choix personnel qui obéit à ma propre subjectivité&nbsp;: je serais le seul à aller chercher mes livres dans ma bibliothèque. Ici, il est nécessaire d’établir des règles pour que tout le monde puisse s’y retrouver et que ma classification suive une logique irréprochable.</p>
+<p>La science des classifications se nomme «&nbsp;systématique&nbsp;» et est très mûre en biologie, science dans laquelle classer le vivant fait partie intégrante de son histoire&nbsp;: botanique, entomologie, géologie, zoologie etc. Il est important de noter, pour aborder toute classification, que chacune répond à un cahier des charges comme évoqué précédemment avec l’exemple d’une bibliothèque personnelle. Si biologiquement parlant, les poissons n’existent pas, cette catégorie est toujours utile chez le poissonnier car le cahier des charges n’est pas le même. Je ne vais pas sur le marché chercher des <em>cucurbita pepo</em> mais bien des courgettes.</p>
+<p>Pour classer de manière rigoureuse, je dois faire trois mouvements mentaux <span class="citation" data-cites="lecointrePrerequisPourCategorisation2023">(<a href="references.html#ref-lecointrePrerequisPourCategorisation2023" role="doc-biblioref">Lecointre 2023</a>)</span>&nbsp;:</p>
+<ol type="1">
+<li>Trier&nbsp;: je sépare les éléments d’un groupe par une clef d’identification.</li>
+<li>Classer&nbsp;: Je mets ensemble tous les éléments ayant des traits en communs, je les range dans la même boite.</li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Attention
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>On ne classe jamais par une absence. Cela peut créer des catégories qui n’ont aucun sens car je pourrais ranger n’importe quoi dans de telles catégories.</p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Ranger&nbsp;: je range de nouveaux éléments dans les boites établies à l’étape précédente.</li>
+</ol>
+<p>Lors du rangement, il peut arriver que mon nouvel élément ne rentre pas dans les boites que j’ai créées, il faut donc revenir à l’étape deux pour voir si je peux créer une nouvelle boite. (C’est ingrat, un seul élément peut entrainer la réorganisation de toutes mes autres boites.)</p>
+</section>
+</section>
+<section id="quelques-classifications-instrumentales-endogènes" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="quelques-classifications-instrumentales-endogènes"><span class="header-section-number">1.2</span> Quelques classifications instrumentales endogènes</h2>
+<section id="dans-les-société-de-tradition-orale" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="dans-les-société-de-tradition-orale"><span class="header-section-number">1.2.1</span> Dans les société de tradition orale</h3>
+<p>En Afrique, il n’y a pas de mot spécifique pour «&nbsp;instrument de musique&nbsp;». Plusieurs systèmes de classifications sont utilisés parmi lesquels&nbsp;: personnification de l’instrument, suivant qui en joue, les registres, les périodes durant lesquelles l’instrument est joué, la fonction de l’instrument dans les ensembles, les représentations symboliques de l’instrument etc.</p>
+<p>En Indonésie et dans les Philippines&nbsp;: classement selon le mode d’actionnement (l’instrument est-il frappé, frotté etc.) et les ensembles instrumentaux.</p>
+<p>En Amérique la zone géographique et la situation historique de colonisation rendent difficile l’étude des classification musicales endogènes. Néanmoins en Bolivie, les instruments sont classés suivant des éléments d’ordre culturel notamment leur utilisation rituelle.</p>
+</section>
+<section id="dans-les-société-de-tradition-écrite" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="dans-les-société-de-tradition-écrite"><span class="header-section-number">1.2.2</span> Dans les société de tradition écrite</h3>
+<p>En Chine, utilisation de la classification <em>ba1yin1</em> (八音 ,litt. Huit sons). Classification selon l’élément principal (≠ élément majoritaire) composant l’instrument&nbsp;: soie, métal, pierre, bois, calebasse, bambou, terre, peau.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Petit détour : philosophie chinoise
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La classification chinoise est en lien avec un système de pensée très riche. Historiquement en Chine (même s’il y a encore des traces actuellement) il y a deux grandes philosophies&nbsp;: le <strong>Confucianisme</strong> et le <strong>Taoïsme</strong>. Il est impossible d’être exhaustif à propos de ces deux courants de pensée. Je vais donc aller assez vite, si vous ne comprenez pas tout, ne vous en faites pas je ferais une synthèse à la fin de ce que vous devez retenir. Ces deux courants de pensée se questionnent autour du Tao, francisation de <em>Dao</em> (道) la voie, le chemin et par extension «&nbsp;la manière d’être/de faire&nbsp;». Pour faire une synthèse grossière de la différence majeure entre les deux courants, on pourrait dire que le confucianisme s’intéresse à la manière d’être en ou de faire société. Le taoïsme quant à lui s’intéresse plus à la manière d’être individuelle et en rapport avec la nature.</p>
+<p>Le Confucianisme est apparu au Ve siècle AEC. Confucius est la latinisation faite par les missionnaires de 孔夫子 (kong3 fu1zi3, litt. Maître Kong). Confucius est né en 551 AEC à Zou (诹) et mort en 479 AEC à Qufu (曲阜) dans l’actuelle province du Shandong. Ce n’est pas vraiment une philosophie mais plus un programme politique. 孔子 a été très actif en politique. L’un des concepts les plus important de cette pensée est celui de 仁(ren2, Homme de bien). Il est possible d’atteindre le statut de 仁 par l’apprentissage constant de nouvelles choses. Cet Idéogramme représente, selon Anne <span class="citation" data-cites="chengHistoirePenseeChinoise2014">Cheng (<a href="references.html#ref-chengHistoirePenseeChinoise2014" role="doc-biblioref">2014</a>)</span> l’humain (人) qui n’est <em>Homme de bien</em> qu’en relation avec autrui (二). L’apprentissage, avant d’être une recherche intellectuelle doit être l’apprentissage de soi même dans sa relation à l’autre. D’où l’une des phrases les plus importantes des entretiens&nbsp;:</p>
+<blockquote class="blockquote">
+<p>«&nbsp;克己复礼为仁&nbsp;» / kè jǐ fù lǐ wéi rén / «&nbsp;Vaincre son égo pour se replacer dans le sens des rites&nbsp;» (Livre XII chapitre 1).</p>
+</blockquote>
+<p>Il met aussi l’accent sur l’importance du respect de la hiérarchie notamment familiale qui est, pour lui, le modèle de la société. Selon lui, une société «&nbsp;en bonne santé&nbsp;» — prospère et en paix — doit s’organiser autour de deux éléments&nbsp;: la musique et les rites. &nbsp;</p>
+<p>Parmi les ouvrage qu’il enseigne se trouve le 易经 (<em>yijing</em>, livre des mutations). Il s’agit d’un ouvrage divinatoire d’achilléomancie (méthode de divination à partir de tiges d’achillée). Pour faire simple (j’essaye)&nbsp;: l’achilléomancien prend 50 tiges d’achillée qu’il partage au hasard selon des règles manipulation de sa connaissance pour obtenir un reste dont le nombre est 36, 32, 28 ou 24. Ces nombres représentent les quadruples de 9, 8, 7 ou 6. 9 et 7, impairs, représentent le monogramme yang (阳, trait continu). 8 et 6, pairs, représentent un monogramme yin (阴, trait discontinu). En répétant l’opération 6 fois, on obtient un hexagramme qui, interprété par l’achilléomancien, représente le devenir cosmique. En faisant l’ensemble des combinaison possibles on obtient 64 hexagrammes (<span class="math inline">\(2^6\)</span>) qu’il est possible de décomposer en 8 trigrammes de base. Ces derniers sont mis en lien avec la nature, des qualités et notre classification des instruments de musique.</p>
+<p>Le Confucianisme peut être conçu comme une recherche de connaissance appliquée au réel&nbsp;: Dans cette pensée, l’instrument de musique est un élément influant directement sur la politique réelle avec des impacts concrets. C’est une spiritualité de lettré.</p>
+<p><em>Pour synthétiser&nbsp;:</em> La classification <em>bayin</em> s’inscrit dans un système de pensée beaucoup plus large et culturellement marqué. Ce système de pensée empruntant à la fois au confucianisme et au taoïsme nous montre la place des instruments dans la pensée chinoise par le biais de leur classification endogène.</p>
+</div>
+</div>
+<p>En Inde classification dans le <em>Nâthyashâstra</em>, traité sanskrit sur le théâtre, la danse et la musique dû à Baratha Muni datant d’il y a 2000 ans. Il s’agit d’un traité important que nous retrouverons plus tard. Il présente quatre catégories (<em>vadhya</em>)&nbsp;:</p>
+<ul>
+<li><em>Tata vadhya</em>&nbsp;: élément vibrant est une ou plusieurs cordes;</li>
+<li><em>Avanadha</em>&nbsp;: élément vibrant couvrant (<span class="math inline">\(\rightarrow\)</span> membrane);</li>
+<li><em>Sushira</em>&nbsp;: élément vibrant creux ou percé&nbsp;(<span class="math inline">\(\rightarrow\)</span> tuyaux dans lesquels ont souffle);</li>
+<li><em>Ghana vadhya</em>&nbsp;: corps rigide frappé.</li>
+</ul>
+<p>Dans le monde arabe, peu de mention de système de classification des instruments de musique. Al Fârâbi distingue néanmoins les cordes frottées, les vents, les cordes pincées et les percussions.</p>
+<p>Dans la Grèce antique, distinction entre musique animée (produite par la voix) et inanimée (musique instrumentale). Distinction entre des instruments mâles et femelles en fonction du caractère et du statut de la musique produite. Hiérarchie entre les instruments par attribution divine&nbsp;: lyre (<em>kithara</em>) attribuée à Apollon et <em>aulos</em> (instrument à anche double) attribué à Déméter. Les instruments à cordes dominent les instruments à air. La musique et les instruments sur lesquels elle est jouée exercent une influence sur l’âme des personnes et donc influencent la société tout entière.</p>
+<p>En Europe, on retrouve de nombreuses classifications historiques, voici les quelques unes particulièrement importantes :</p>
+<ul>
+<li>VIe siècle&nbsp;classification Cassiodore (av. 580 EC.)&nbsp;: percussion, tension, souffle.</li>
+<li>XIVe classification de Johannes de Muris en trois classes&nbsp;: corde, vent, percussion encore utilisée dans les discours populaires sur l’orchestre occidental.</li>
+<li>XVIe/XVIIe siècle, effort taxonomique par Praetorius, Mersenne Trichet etc. dans cette tripartition. Cet effort permet d’affiner cette classification en trois éléments.</li>
+<li>Classification de Praetorius en deux catégories&nbsp;:
+<ul>
+<li>Instruments à vents
+<ul>
+<li>Vent naturel</li>
+<li>Souffle humain
+<ul>
+<li>Hauteurs déterminées par le souffle</li>
+<li>Hauteurs déterminées mécaniquement.
+<ul>
+<li>Par une coulisse</li>
+<li>Par des trous</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Instruments à percussion (avec percussion entendu au sens le plus large qui soit pour recouvrir les instruments à archet, à pincement etc.)
+<ul>
+<li>Sans cordes</li>
+<li>Avec cordes
+<ul>
+<li>En boyau joué par
+<ul>
+<li>Les doigts</li>
+<li>Archet</li>
+<li>Roue</li>
+</ul></li>
+<li>En métal joué par
+<ul>
+<li>Les doigts</li>
+<li>Plectre</li>
+<li>Une plume dans un sautereau</li>
+<li>Marteau en bois</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Instruments hybrides.</li>
+</ul></li>
+</ul>
+<p>Or, avec l’arrivée d’instruments ruraux et “exotiques”, ces catégorisations vont s’effondrer. Va allor naître la volonté de mettre en place des classifications “universelles” des instruments de musique notamment utile dans le domaine de la muséologie.</p>
+</section>
+</section>
+<section id="vers-une-classification-universelle-des-instruments-de-musique" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="vers-une-classification-universelle-des-instruments-de-musique"><span class="header-section-number">1.3</span> Vers une classification universelle des instruments de musique ?</h2>
+<p>Les classifications scientifiques à visée universelles se développe à partir du XIXe siècle dans le contexte des musées d’instruments de musique. J’en présenterai ici quelques-unes parmi les plus importantes. L’aspect muséal est à entendre comme la vision du musée du XIXe siècle avec tous les biais colonialistes et de violence symbolique qu’il contient. Le cahier de charge muséal impose quelques contraintes&nbsp;: on doit pouvoir classer un instrument sans nécessairement savoir comment il fonctionne.</p>
+<ul>
+<li>Classification Mahillon (fin XIXe), il reprend la classification indienne qui prend comme point de départ l’élément vibrant. Formation de quatre classes&nbsp;:
+<ul>
+<li>Instruments à cordes.</li>
+<li>Instruments à vent.</li>
+<li>Instruments à membranes.</li>
+<li>Instruments autophones (= qui sonnent par eux même.)</li>
+</ul></li>
+<li>En 1914, Erich von hornbostel et Curt Sachs reprennent la classification de Mahillon en changeant le nom des catégories&nbsp;:
+<ul>
+<li>Cordophones.</li>
+<li>Aérophones.</li>
+<li>Membranophones.</li>
+<li>Idiophones.</li>
+<li>Électrophones (ajoutée par Sachs en 1940)</li>
+</ul></li>
+<li>En 1936 André Schaeffner part d’un autre point de vue qui est celui des propriétés de la matière vibrante chacune pouvant se scinder en deux :
+<ul>
+<li>Matière solide
+<ul>
+<li>Susceptible de tension</li>
+<li>Non-susceptibles de tension (on peut noter qu’il enfreint ici l’une des règles des systèmes de classifications, à savoir l’établissement d’une catégorie par l’absence d’un élément.)</li>
+</ul></li>
+<li>Air
+<ul>
+<li>Ambiant</li>
+<li>Contenu dans une cavité.</li>
+</ul></li>
+</ul></li>
+<li>En 1970 Geneviève Dournon fait une synthèse entre la classification Hornbostel-Sachs et la classification de Schaeffner&nbsp;:
+<ul>
+<li>Instruments non-susceptibles de tension.
+<ul>
+<li>Idiophones.</li>
+</ul></li>
+<li>Instruments susceptibles de tension.
+<ul>
+<li>Membranophones.</li>
+<li>Cordophones.</li>
+</ul></li>
+<li>Instruments à air vibrant.
+<ul>
+<li>Aérophones.</li>
+</ul></li>
+</ul></li>
+<li>En 2011, le <a href="https://mimo-international.com/MIMO/">MIMO</a> (<em>Musical Instrument Museums Online</em>) enrichit de manière très importante la catégorie des électrophones à partir de la collection du musée des instruments de musique de Bruxelles et le travail de recherche de Maarten Quanten.</li>
+</ul>
+<p>Il y a bien entendu eu d’autres essais de classification mais qui ne sont pas rentré dans l’usage ni muséal ni scientifique. Parmis les principaux essais cités notamment dans le livre de Margarett <span class="citation" data-cites="kartomiConceptsClassificationsMusical1990">Kartomi (<a href="references.html#ref-kartomiConceptsClassificationsMusical1990" role="doc-biblioref">1990</a>)</span>, on pensera à la classification de Tetsuo <span class="citation" data-cites="SakuraiClassificationMusicalInstruments1982">Sakurai (<a href="references.html#ref-SakuraiClassificationMusicalInstruments1982" role="doc-biblioref">1982</a>)</span> ou encore la réflexion particulièrement pertinente de Montagu et Burton <span class="citation" data-cites="montaguProposedNewClassification1971">(<a href="references.html#ref-montaguProposedNewClassification1971" role="doc-biblioref">Montagu and Burton 1971</a>)</span> que je vous encourage à lire.</p>
+</section>
+<section id="conclusion-à-lintroduction" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="conclusion-à-lintroduction"><span class="header-section-number">1.4</span> Conclusion à l’introduction</h2>
+<p>Dans le cadre de ce cours, j’utiliserai les classifications aujourd’hui en usage : la classification Hornbostel-Sachs révisée par le Mimo <span class="citation" data-cites="mimoconsortiumRevisionHornbostelSachsClassification2011">(<a href="references.html#ref-mimoconsortiumRevisionHornbostelSachsClassification2011" role="doc-biblioref">MIMO Consortium 2011</a>)</span> et les classification de Geneviève Dournon <span class="citation" data-cites="dournonGuidePourCollecte1996 dournonInstrumentsMusiquesMonde2007">(<a href="references.html#ref-dournonGuidePourCollecte1996" role="doc-biblioref">Dournon 1996</a>, <a href="references.html#ref-dournonInstrumentsMusiquesMonde2007" role="doc-biblioref">2007</a>)</span>. Ces classifications ne sont pas exemptes de nombreux problèmes de systématique et je compte sur vous pour ouvrir l’œil aux incohérences et autres problèmes pour aiguiser votre esprit critique.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-chengHistoirePenseeChinoise2014" class="csl-entry" role="listitem">
+Cheng, Anne. 2014. <em><span>Histoire de la pensée chinoise</span></em>. <span>Points</span> 488. Éd. Points.
+</div>
+<div id="ref-dournonGuidePourCollecte1996" class="csl-entry" role="listitem">
+Dournon, Geneviève. 1996. <em><span>Guide pour la collecte des instruments de musique traditionnels</span></em>. <span>Protection of the cultural heritage Technical handbooks for museums and monuments</span> 5. Les Presses de l’Unesco.
+</div>
+<div id="ref-dournonInstrumentsMusiquesMonde2007" class="csl-entry" role="listitem">
+Dournon, Geneviève. 2007. <span>“<span>Instruments de musiques du monde : foisonnement et systématiques</span>.”</span> <em>Musiques: une encyclopédie pour le XXIe siècle 5. l’unité de la musique</em> (Arles [Paris]) 5: 833–68.
+</div>
+<div id="ref-durkinOrganologyIntroductionOrganology2024" class="csl-entry" role="listitem">
+Durkin, Rachael. 2024. <span>“On <span>Organology</span>: <span>Introduction</span> to the <span>Organology Special Issue</span>.”</span> <em>Journal of Musicological Research</em> 43 (2-3): 51–56. <a href="https://doi.org/10.1080/01411896.2024.2378635">https://doi.org/10.1080/01411896.2024.2378635</a>.
+</div>
+<div id="ref-kartomiConceptsClassificationsMusical1990" class="csl-entry" role="listitem">
+Kartomi, Margaret J. 1990. <em>On Concepts and Classifications of Musical Instruments</em>. Chicago Studies in Ethnomusicology. University of Chicago Press.
+</div>
+<div id="ref-lacombeLinstrumentMusiqueIdentite2011" class="csl-entry" role="listitem">
+Lacombe, Hervé. 2011. <span>“<span>L’instrument de musique : identité et potentiel</span>.”</span> <em>Methodos. Savoirs et textes</em>, no. 11 (March). <a href="https://doi.org/10.4000/methodos.2552">https://doi.org/10.4000/methodos.2552</a>.
+</div>
+<div id="ref-lecointrePrerequisPourCategorisation2023" class="csl-entry" role="listitem">
+Lecointre, Guillaume. 2023. <span>“<span>Prérequis pour une catégorisation rationnelle en histoire naturelle</span>.”</span> In <em><span>L’ordonnancement du monde: revisiter l’ethnoscience</span></em>. Presses universitaires François-Rabelais.
+</div>
+<div id="ref-mimoconsortiumRevisionHornbostelSachsClassification2011" class="csl-entry" role="listitem">
+MIMO Consortium. 2011. <em>Revision of the <span>Hornbostel-Sachs Classification</span> of <span>Musical Instruments</span> by the <span>MIMO Consortium</span></em>.
+</div>
+<div id="ref-montaguProposedNewClassification1971" class="csl-entry" role="listitem">
+Montagu, Jeremy, and John Burton. 1971. <span>“A <span>Proposed New Classification System</span> for <span>Musical Instruments</span>.”</span> <em>Ethnomusicology</em> 15 (1): 49–70. <a href="https://doi.org/10.2307/850387">https://doi.org/10.2307/850387</a>.
+</div>
+<div id="ref-SakuraiClassificationMusicalInstruments1982" class="csl-entry" role="listitem">
+Sakurai, Tetsuo. 1982. <em>The <span>Classification</span> of <span>Musical Instruments Reconsidered</span></em>. No. 4. 国立民族学博物館. <a href="https://doi.org/10.15021/00004491">https://doi.org/10.15021/00004491</a>.
+</div>
+<div id="ref-seveLinstrumentMusiqueEtude2013" class="csl-entry" role="listitem">
+Sève, Bernard. 2013. <em>L’instrument de Musique: Une Étude Philosophique</em>. L’<span>Ordre</span> Philosophique. Seuil.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link" aria-label="Références">
+        <span class="nav-page-text">Références</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
