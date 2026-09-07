@@ -4,7 +4,7 @@ project:
 book:
   title: "Cours d'organologie L2"
   author: "Matthieu Lainé"
-  date: "2026"
+  date: "09/2026"
   chapters:
     - index.qmd
     - intro.qmd

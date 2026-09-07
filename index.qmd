@@ -1,5 +1,7 @@
-# Preface {.unnumbered}
+# Préface {.unnumbered}
 
-This is a Quarto book.
+Vous êtes en train de lire le cours d'organologie de licence 2 EAD. Les attendus du cours sont les suivant : 
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+- Être capable de décrire un instrument le plus précisément possible. 
+- Retrouver la catégorie d'un instrument observé au sein d'une classification scientifique.
+- Utiliser la terminologie précise lors de la description d'un instrument ou d'un ensemble d'instrument. 
