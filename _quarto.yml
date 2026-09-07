@@ -4,14 +4,15 @@ project:
 book:
   title: "Cours d'organologie L2"
   author: "Matthieu Lainé"
-  date: "09/2026"
+  date: "07.09.2026"
   chapters:
     - index.qmd
     - intro.qmd
     - references.qmd
+  page-footer: "Copyright 2026, Matthieu Lainé"
 
 bibliography: references.bib
-
+  
 format:
   html:
     theme:
