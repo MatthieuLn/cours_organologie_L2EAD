@@ -8,7 +8,9 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - Idiophones.qmd
     - references.qmd
+
   page-footer: "Copyright 2026, Matthieu Lainé"
 
 bibliography: references.bib

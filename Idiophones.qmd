@@ -1,0 +1,200 @@
+# Idiophones
+
+## Classification générale
+
+- La matière vibrante est un corps solide qui ne peut être tendu.
+
+- La typologie prend en compte le mode de vibration de la matière, la structure de l’instrument, sa facture (élément unique ou multiple), la matière quand elle permet une désignation unique.
+
+- Le premier niveau de distinction s’effectue par rapport aux sept modes de mise en vibration : entrechoc, frappement, pilonnement, secouement, raclement, frottement , pincement.
+
+# Exemples
+
+## Entrechoc
+
+### Corps plein, bâtons ou blocs entrechoqués 
+
+- 拍子木 [ひょうしぎ, hyôshigi]
+
+Hors contexte : 
+
+{{< video https://www.youtube.com/watch?v=a6AXaJd7CtA >}}
+
+En contexte l'instrument marque le début des pièces musicales notamment dans le *kabuki* (歌舞伎). Ici *Fujimusume* (藤娘) composé par Fujima Murasaki (紫藤間) : 
+
+{{< video https://www.youtube.com/watch?v=1KxDVAUghWY&list=PLU-4I8fw2V8moDm3SjziCH25q14PXNQgw >}}
+
+### Corps plein, plaques entrechoquées, 2 à 6 éléments
+
+- 박 bak
+
+En contexte, marque aussi le début et les grandes parties des pièces, ici *Jongmyo Jeryeak* (종묘제례악), musique rituelle confucéenne de la cour coréenne du sanctuaire Jongmyo à Séoul. 
+
+{{< video https://www.youtube.com/watch?v=-emOUYX35ZY&list=RD-emOUYX35ZY&start_radio=1 >}}
+
+### Corps creux ou concaves
+
+#### 2+2 éléments
+
+- Castagnettes
+
+{{< video https://www.youtube.com/watch?v=5Frq7rjEGzs&list=RD5Frq7rjEGzs >}}
+
+- Qraqeb
+
+{{< video https://www.youtube.com/watch?v=pTkyaaj_fow >}}
+
+#### cuillères entrechoquées
+
+- Cuillères musicales
+
+{{< video https://www.youtube.com/watch?v=_nLmM9kcBKs&list=RD_nLmM9kcBKs&start_radio=1 >}}
+
+## Frappement
+
+### Plaque percutée 
+
+- Kyizi (Myanmar)
+
+{{< video https://www.youtube.com/watch?v=1xiGo39pHFI >}}
+
+#### à plusieurs éléments suspendus
+
+- Lithophone Bianqing (变轻)
+
+{{< video https://www.youtube.com/watch?v=XesrzYrBZbc&list=RDXesrzYrBZbc&start_radio=1 >}}
+
+#### Avec lames en bois (Xylophone) fixées sur résonateurs multiples
+
+{{< video https://www.youtube.com/watch?v=kXXhp_bZvck&list=RDkXXhp_bZvck&start_radio=1 >}}
+
+#### Xylophone sur échelle de corde (Vietnam)
+
+Une partie est constituée de lame partiellement tubulaires, une autre est faites d'éléments tubulaires mis en série (voir plus loin) $\rightarrow$ on voit bien que les classifications aujourd'hui en usages ont du mal à saisir le caractère composite de certains instruments.
+
+{{< video https://www.youtube.com/watch?v=iRZ0cHUi5so&list=RDiRZ0cHUi5so&start_radio=1 >}}
+
+#### Métalophone avec série d'éléments
+
+- Sur caisse
+
+{{< video https://www.youtube.com/watch?v=nGCSrC8RN6c&list=RDnGCSrC8RN6c&start_radio=1 >}}
+
+- Avec résonateur multiple
+
+{{< video https://www.youtube.com/watch?v=aVL_pdrqX0A&list=RDaVL_pdrqX0A&start_radio=1 >}}
+
+### Tambour à fente
+
+{{< video https://www.youtube.com/watch?v=DS-aYPENaAA >}}
+
+Tambour à fente à double languettes :
+
+{{< video https://www.youtube.com/watch?v=YVI_WRLf6wE >}}
+
+### Corps creux hémisphérique posé
+
+- Hangdrum
+
+{{< video https://www.youtube.com/watch?v=UNJswfXKJ3s&list=RDUNJswfXKJ3s&start_radio=1 >}}
+
+### Corps creux hémisphérique retourné sur de l'eau
+
+{{< video https://www.youtube.com/watch?v=a0qiHzfw2qs >}}
+
+### Éléments tubulaires en bambous mis en série
+
+{{< video https://www.youtube.com/watch?v=jhh-y4feRcw >}}
+
+### Corps creux dont le corps cylindrique est suspendu
+
+- Tambour de bronze tonggu (铜鼓)
+
+{{< video https://www.youtube.com/watch?v=shBBTqCP3cY >}}
+
+### Corps creux dont le corps cylindrique est renversé
+
+- Steeldrum
+
+{{< video https://www.youtube.com/watch?v=DRfb-AnDo7g&list=RDDRfb-AnDo7g&start_radio=1 >}}
+
+### Plaque circulaire percutée à rebord (= gong)
+
+{{< video https://www.youtube.com/watch?v=Vakil-3EqQY&list=RDVakil-3EqQY&start_radio=1 >}}
+
+#### Avec protubérance centrale
+
+{{< video https://www.youtube.com/watch?v=FRIjS714zBk >}}
+
+### Le corps creux est évasé (= cloche)
+
+{{< video https://www.youtube.com/watch?v=IYV5fIOVWiU >}}
+
+## Pilonnement
+
+### Corps plein
+
+{{< video https://www.youtube.com/watch?v=YpUq8KBvtCw >}}
+
+### Corps creux
+
+{{< video https://www.youtube.com/shorts/FuAp6JnzR4w >}}
+
+## Secouement
+
+### Réceptacle clos contenant de la grenaille (= hochet)
+
+{{< video https://www.youtube.com/watch?v=lF4pfhxlTr0 >}}
+
+### Corpuscules vibrants assemblés au corps du musicien (= Sonailles)
+
+{{< video https://www.youtube.com/shorts/hygAqcnQ27U >}}
+
+### Corpuscules vibrants assemblés entourant un corps creux (Hochet sonnaille)
+
+{{< video https://www.youtube.com/watch?v=NgCLQZXA9WA >}}
+
+### Tubes de bambous oscillant (= Angklung)
+
+{{< video https://www.youtube.com/watch?v=STzb6s05ny0 >}}
+
+## Raclement
+
+### Racelement d'un corps plein
+
+- crécelles
+
+{{< video https://www.youtube.com/watch?v=aPbe8Yr1mlw >}}
+
+### Raclement d'une plaque strillée
+
+{{< video https://www.youtube.com/watch?v=J6s-xqSv94U >}}
+
+### raclement d'un corps creux strillé
+
+{{< video https://www.youtube.com/watch?v=GsJAFx71CCA >}}
+
+## Frottement
+
+### D'une bande métallique avec un archet 
+
+- scie musicale
+
+{{< video https://www.youtube.com/watch?v=-6nv0iDrAis >}}
+
+## Pincement
+
+### Lamellophone sur cadre avec lamelle dépassant de ce dernier
+
+- Guimbarde
+
+Concerto pour guimbarde et mandore en Mi majeur — Albrechtsberger (1736 - 1809) : 
+{{< video https://www.youtube.com/watch?v=HZn2OgQi33o >}}
+
+{{< video https://www.youtube.com/watch?v=Ja_ranxTZRo >}}
+
+### Série de languette sur un support
+
+- Sanza
+
+{{< video https://www.youtube.com/watch?v=G7oGgbHwIEg&list=RDG7oGgbHwIEg&start_radio=1 >}}
