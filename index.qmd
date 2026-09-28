@@ -1,7 +1,19 @@
 # Préface {.unnumbered}
 
-Vous êtes en train de lire le cours d'organologie de licence 2 EAD. Les attendus du cours sont les suivant : 
+Vous êtes en train de lire le cours d'organologie de licence 2 EAD. Les attendus du cours sont les suivants : 
 
 - Être capable de décrire un instrument le plus précisément possible. 
 - Retrouver la catégorie d'un instrument observé au sein d'une classification scientifique.
 - Utiliser la terminologie précise lors de la description d'un instrument ou d'un ensemble d'instrument. 
+
+:::{.callout-warning}
+## Attention
+
+Il ne faut en aucun cas apprendre par cœur les numéros du système Dewey ! Si vous me les mettez dans vos copies je ne vous les corrigerai pas, gardez donc de l'espace de cerveau pour ce qui compte vraiment. 
+:::
+
+## À propos de l'auteur du cours
+
+Il me semble fondamental de se présenter pour que vous puissiez être conscients des biais que ce cours pourra comporter. Je suis doctorant sous la direction de [Sylvie Le Bomin](https://ecoanthropologie.fr/fr/annuaire/le-bomin-sylvie-6072) (Sorbonne Université) et [Guillaume Lecointre](https://isyeb.mnhn.fr/fr/annuaire/guillaume-lecointre-418) (Muséum National d'Histoire Naturelle). Dans ma thèse, intitulée [*Les cithares sur table bombée comme reflets des mécanismes d'évolutions, de transmissions et d'innovations culturelles en Asie orientale*](https://theses.fr/s416964), je cherche à comprendre comment ce genre (au sens classificatoire) d'instrument à évolué en Asie orientale en utilisant des méthodes issues de la systématique et de l'histoire naturelle. Ce cours comporte donc un biais vers l'Asie orientale qui est mon aire géoculturelle d'étude. Ayant étudié le Chinois mandarin pendant une grande partie de ma scolarité, mon approche de l'Asie orientale peut donc aussi avoir un biais sinisant (mais j'essaye de le corriger du mieux possible). Par les instruments qui sont mon objet de recherche et ma pratique du clavecin, le cours sera aussi biaisé en faveur des cordophones.
+
+Maintenant que vous êtes prévenus des biais possibles, je vous laisse découvrir le monde merveilleux de l'organologie et des classifications.  
