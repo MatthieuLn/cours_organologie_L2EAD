@@ -6,7 +6,7 @@
 
 - La typologie prend en compte le mode de vibration de la matière, la structure de l’instrument, sa facture (élément unique ou multiple), la matière quand elle permet une désignation unique.
 
-- Le premier niveau de distinction s’effectue par rapport aux sept modes de mise en vibration : entrechoc, frappement, pilonnement, secouement, raclement, frottement , pincement.
+- Le premier niveau de distinction s’effectue par rapport aux sept modes de mise en vibration : entrechoc, frappement, pilonnement, secouement, raclement, frottement, pincement.
 
 # Exemples
 
@@ -20,7 +20,7 @@ Hors contexte :
 
 {{< video https://www.youtube.com/watch?v=a6AXaJd7CtA >}}
 
-En contexte l'instrument marque le début des pièces musicales notamment dans le *kabuki* (歌舞伎). Ici *Fujimusume* (藤娘) composé par Fujima Murasaki (紫藤間) : 
+En contexte l'instrument marque le début des pièces musicales notamment dans le *kabuki* (歌舞伎). Ici *Fujimusume* (藤娘) composé par Fujima Murasaki (藤間紫) : 
 
 {{< video https://www.youtube.com/watch?v=1KxDVAUghWY&list=PLU-4I8fw2V8moDm3SjziCH25q14PXNQgw >}}
 
@@ -44,7 +44,7 @@ En contexte, marque aussi le début et les grandes parties des pièces, ici *Jon
 
 {{< video https://www.youtube.com/watch?v=pTkyaaj_fow >}}
 
-#### cuillères entrechoquées
+#### Cuillères entrechoquées
 
 - Cuillères musicales
 
@@ -58,9 +58,9 @@ En contexte, marque aussi le début et les grandes parties des pièces, ici *Jon
 
 {{< video https://www.youtube.com/watch?v=1xiGo39pHFI >}}
 
-#### à plusieurs éléments suspendus
+#### À plusieurs éléments suspendus
 
-- Lithophone Bianqing (变轻)
+- Lithophone Bianqing (编磬)
 
 {{< video https://www.youtube.com/watch?v=XesrzYrBZbc&list=RDXesrzYrBZbc&start_radio=1 >}}
 
@@ -70,11 +70,11 @@ En contexte, marque aussi le début et les grandes parties des pièces, ici *Jon
 
 #### Xylophone sur échelle de corde (Vietnam)
 
-Une partie est constituée de lame partiellement tubulaires, une autre est faites d'éléments tubulaires mis en série (voir plus loin) $\rightarrow$ on voit bien que les classifications aujourd'hui en usages ont du mal à saisir le caractère composite de certains instruments.
+Une partie est constituée de lames partiellement tubulaires, une autre est faite d'éléments tubulaires mis en série (voir plus loin) $\rightarrow$ on voit bien que les classifications aujourd'hui en usage ont du mal à saisir le caractère composite de certains instruments.
 
 {{< video https://www.youtube.com/watch?v=iRZ0cHUi5so&list=RDiRZ0cHUi5so&start_radio=1 >}}
 
-#### Métalophone avec série d'éléments
+#### Métallophone avec série d'éléments
 
 - Sur caisse
 
@@ -88,7 +88,7 @@ Une partie est constituée de lame partiellement tubulaires, une autre est faite
 
 {{< video https://www.youtube.com/watch?v=DS-aYPENaAA >}}
 
-Tambour à fente à double languettes :
+Tambour à fente à double languette :
 
 {{< video https://www.youtube.com/watch?v=YVI_WRLf6wE >}}
 
@@ -102,7 +102,7 @@ Tambour à fente à double languettes :
 
 {{< video https://www.youtube.com/watch?v=a0qiHzfw2qs >}}
 
-### Éléments tubulaires en bambous mis en série
+### Éléments tubulaires en bambou mis en série
 
 {{< video https://www.youtube.com/watch?v=jhh-y4feRcw >}}
 
@@ -146,7 +146,7 @@ Tambour à fente à double languettes :
 
 {{< video https://www.youtube.com/watch?v=lF4pfhxlTr0 >}}
 
-### Corpuscules vibrants assemblés au corps du musicien (= Sonailles)
+### Corpuscules vibrants assemblés au corps du musicien (= Sonnailles)
 
 {{< video https://www.youtube.com/shorts/hygAqcnQ27U >}}
 
@@ -154,23 +154,23 @@ Tambour à fente à double languettes :
 
 {{< video https://www.youtube.com/watch?v=NgCLQZXA9WA >}}
 
-### Tubes de bambous oscillant (= Angklung)
+### Tubes de bambou oscillant (= Angklung)
 
 {{< video https://www.youtube.com/watch?v=STzb6s05ny0 >}}
 
 ## Raclement
 
-### Racelement d'un corps plein
+### Raclement d'un corps plein
 
-- crécelles
+- Crécelles
 
 {{< video https://www.youtube.com/watch?v=aPbe8Yr1mlw >}}
 
-### Raclement d'une plaque strillée
+### Raclement d'une plaque striée
 
 {{< video https://www.youtube.com/watch?v=J6s-xqSv94U >}}
 
-### raclement d'un corps creux strillé
+### Raclement d'un corps creux strié
 
 {{< video https://www.youtube.com/watch?v=GsJAFx71CCA >}}
 
@@ -178,7 +178,7 @@ Tambour à fente à double languettes :
 
 ### D'une bande métallique avec un archet 
 
-- scie musicale
+- Scie musicale
 
 {{< video https://www.youtube.com/watch?v=-6nv0iDrAis >}}
 
@@ -188,12 +188,12 @@ Tambour à fente à double languettes :
 
 - Guimbarde
 
-Concerto pour guimbarde et mandore en Mi majeur — Albrechtsberger (1736 - 1809) : 
+Concerto pour guimbarde et mandore en mi majeur — Albrechtsberger (1736-1809) : 
 {{< video https://www.youtube.com/watch?v=HZn2OgQi33o >}}
 
 {{< video https://www.youtube.com/watch?v=Ja_ranxTZRo >}}
 
-### Série de languette sur un support
+### Série de languettes sur un support
 
 - Sanza
 
