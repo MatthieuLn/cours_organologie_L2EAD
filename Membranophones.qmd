@@ -1,0 +1,144 @@
+# Membranophones
+
+Les principales clefs de différenciation : 
+
+1. Mode de mise en vibration
+2. Nombre de membranes
+3. Structure générale de l'instrument
+4. Forme de la caisse/cadre
+
+
+::: {.callout-warning}
+## ATTENTION !
+
+Pour les tambours à friction, l'outil de friction remplace le type de caisse.
+
+:::
+
+# Une membrane
+## Sur caisse
+### Hémisphérique (timbale)
+
+*Timbale occidentale* : une membrane cerclée avec tringle et pédales sur une caisse hémisphérique.
+
+{{< video https://www.youtube.com/watch?v=5ItTgsaaJ2c >}} 
+
+Timbale *nagara* (नगाड़ा) (Rajasthan) : la membrane est lacée.
+
+{{< video https://www.youtube.com/watch?v=YqPS1p78fqU >}}
+
+*Tabla* (तबला) : instrument composé de deux membranophones, le *tabla* (तबला) de forme cylindrique et le *baya* (बायाँ) de forme hémisphérique. 
+
+{{< video https://www.youtube.com/watch?v=Joyk_EMtzn0 >}}
+
+#### Contenant de l'eau
+
+Tambour à peau lacée sur caisse hémisphérique contenant de l'eau (Amérique du nord) : regardez à partir de 20:28
+
+{{< video https://youtu.be/MCFriPO6Vf8?t=1227 >}}
+
+### En forme de calice
+
+Darbuka : ici, la peau semble collée mais c'est difficile de le confirmer. 
+
+{{< video https://www.youtube.com/watch?v=jZcTz5Gg63c >}}
+
+Thôn, Thailande (โทนรำมะนา) : la membrane semble ici clouée et lacée.
+
+{{< video https://www.youtube.com/watch?v=4ngmUqCKyeA >}}
+
+Tombak (Iran) : avec membrane cerclée ici. 
+
+{{< video https://www.youtube.com/watch?v=_RpMdOHuHMY >}}
+
+### Cylindrique ou tubulaire
+
+Vous pouvez observer ce tambour au début à droite des tambours à fente (vidéo d'une danse fang au Gabon)
+
+{{< video https://www.youtube.com/watch?v=bBA3OJp4liE >}}
+
+### En tonnelet
+
+{{< video https://www.youtube.com/watch?v=C18oFo9_yLU >}}
+
+### Tronconique
+
+{{< video https://www.youtube.com/watch?v=D_5KDkhdU10 >}}
+
+### Sphérique
+
+{{< video https://www.youtube.com/watch?v=rzq3yTi43Mk&list=RDrzq3yTi43Mk&start_radio=1 >}}
+
+## Sur cadre
+
+Sur cette image, vous observerez différents types de tambours sur cadre. Certains possèdent un manche (à droite et en bas à gauche), d'autres possèdent des bruiteurs ajoutés (au centre) qui sont des cymbalettes. 
+
+![](Tambours%20sur%20cadres.png)
+
+
+::: {.callout-warning}
+# Attention
+
+Le tambour en bas à droite est un tambour à deux membranes. Nous en parlerons plus loin.
+
+:::
+
+Dans cette vidéo (à partir de 2:32) : tambour sur cadre inuit.
+
+{{< video https://youtu.be/CMrtEnvTvoY?t=152 >}}
+
+Dans celle-ci, vous pouvez observer un *daf*, tambour sur cadre avec bruiteurs ajoutés :
+
+{{< video https://www.youtube.com/watch?v=9sDUnvFR51w >}}
+
+# Deux membranes
+
+## Sur caisse
+
+### Cylindrique
+
+{{< video https://www.youtube.com/watch?v=EB0AnOCq77A >}}
+
+{{< video https://www.youtube.com/watch?v=bS9ON_mfNgA&list=RDbS9ON_mfNgA&start_radio=1 >}}
+
+### Tronconique
+
+{{< video https://www.youtube.com/watch?v=mVSExx-5r6k >}}
+
+### Tonnelet
+
+### Sablier
+
+Le tambour *ko-tsuzumi* (小鼓, こつづみ) est un tambour japonais en forme de sablier à double membranes. Il est dit à tension variable. En pinçant plus ou moins fort les cordelettes qui tendent les membranes, le musicien peut influencer la hauteur du son produit. 
+
+{{< video https://www.youtube.com/watch?v=AEdfX0OVn68 >}}
+
+## Sur cadre
+
+### Circulaire
+
+{{< video https://www.youtube.com/watch?v=b6nFxPN2wjY >}}
+
+### Quadrangulaire
+
+{{< video https://www.youtube.com/watch?v=V8yn8PA4Ukc >}}
+
+# Tambour à friction
+
+L'exemple majeur des tambours à friction est sans doute le Rommelpot belge. En frottant sur une tige, le musicien fait vibrer la membrane.
+
+{{< video https://www.youtube.com/watch?v=5TvP0SSAg5k >}}
+
+# Membrane chantante
+
+{{< video https://www.youtube.com/watch?v=ChpmKkWBb4w >}}
+
+Dans l'enregistrement suivant réalisé par l'ethnomusicologue Pierre Sallée en 1966 dans la population Ntumu au Gabon, vous entendrez une personne dont la voix est modifiée par un mirliton. 
+
+<iframe width='361' height='215' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://archives.crem-cnrs.fr/archives/items/CNRSMH_I_2007_005_060_02/player/346x130/'></iframe>
+
+Vous pouvez aller plus loin dans ce travail organologique des populations Ntumu en consultant l'article de Hervé Rivière [ici](https://www.persee.fr/doc/jafr_0399-0346_1999_num_69_2_1212). Il est de toute façon intéressant d'observer comment son décrits les instruments dans cet instrumentarium (cela rejoins le travail qui est attendus pour les partiels). 
+
+# Petit travail personnel
+
+Cette partie de la classification comporte deux principaux problèmes que je vous propose d'identifier au titre d'un travail de réflexion personnel. Observez bien les différents instruments et les catégories dans lesquelles ils se trouvent. Que remarquez-vous ? En quoi cette catégorie instrumentale pose problème ? 
