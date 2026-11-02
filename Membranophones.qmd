@@ -135,7 +135,7 @@ L'exemple majeur des tambours à friction est sans doute le Rommelpot belge. En 
 
 Dans l'enregistrement suivant réalisé par l'ethnomusicologue Pierre Sallée en 1966 dans la population Ntumu au Gabon, vous entendrez une personne dont la voix est modifiée par un mirliton. 
 
-<iframe width='361' height='215' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://archives.crem-cnrs.fr/archives/items/CNRSMH_I_2007_005_060_02/player/346x130/'></iframe>
+<iframe width='361' height='215' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_2007_005_060_02/player/346x130/'></iframe>
 
 Vous pouvez aller plus loin dans ce travail organologique des populations Ntumu en consultant l'article de Hervé Rivière [ici](https://www.persee.fr/doc/jafr_0399-0346_1999_num_69_2_1212). Il est de toute façon intéressant d'observer comment son décrits les instruments dans cet instrumentarium (cela rejoins le travail qui est attendus pour les partiels). 
 
