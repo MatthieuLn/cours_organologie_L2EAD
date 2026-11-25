@@ -222,7 +222,7 @@ Le système de mise en tension des cordes est un peu particulier. Georges Goorma
 
 >"Chacune des sept cordes est accrochée à son tendeur par un système ingénieux: un nœud situé à l'une des extrémités de la corde est retenu dans une tresse de fils de soie, cette tresse est elle-même attachée à une cheville libre qui n'est pas fichée dans une cavité du bois mais tient à l'instrument par la seule vertu de la tension de la corde. Pour contrôler cette tension, on tourne la cheville qui, en serrant ou desserrant la torsade modifie sa longueur. Le nœud de la corde, captif des soies du tendeur, transmet ces changements de tension. L'autre extrémité de la corde est enroulée autour d'un des deux pieds situés sous l'instrument." [@goormaghtighChantPecheurIvre2010, p.17]
 
-![Système de mise en tension des cordes d'un *qin*. Schéma de @wuShapeStructureMechanism2018](images/qin_tension.png)
+![Système de mise en tension des cordes d'un *qin*. Schéma de @wuShapeStructureMechanism2018](Images/qin_tension.png)
 
 Instrument des lettrés, le *guqin* est entouré de nombreux symboles et pouvoirs d'influences sur le monde. Ces symboles sont eux aussi particulièrement bien expliqués par le même auteur : 
 
