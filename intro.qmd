@@ -137,8 +137,8 @@ En Amérique la zone géographique et la situation historique de colonisation re
 
 En Chine, utilisation de la classification _ba1yin1_ (八音, litt. Huit sons). Classification selon l’élément principal (≠ élément majoritaire) composant l’instrument : soie, métal, pierre, bois, calebasse, bambou, terre, peau.
 
-:::{.callout-note}
-## Petit détour : philosophie chinoise
+:::{.callout-note collapse=true}
+## Petit détour : philosophie chinoise (la synthèse est à savoir; les détails, non)
 
 La classification chinoise est en lien avec un système de pensée très riche. Historiquement en Chine (même s’il y a encore des traces actuellement) il y a deux grandes philosophies : le **confucianisme** et le **taoïsme**. Il est impossible d’être exhaustif à propos de ces deux courants de pensée. Je vais donc aller assez vite, si vous ne comprenez pas tout, ne vous en faites pas je ferai une synthèse à la fin de ce que vous devez retenir. Ces deux courants de pensée se questionnent autour du Tao, francisation de _Dao_ (道) la voie, le chemin et par extension « la manière d’être/de faire ». Pour faire une synthèse grossière de la différence majeure entre les deux courants, on pourrait dire que le confucianisme s’intéresse à la manière d’être en ou de faire société. Le taoïsme quant à lui s’intéresse plus à la manière d’être individuelle et en rapport avec la nature.
 
@@ -153,6 +153,7 @@ Parmi les ouvrages qu’il enseigne se trouve le 易经 (_Yijing_, Livre des mut
 Le confucianisme peut être conçu comme une recherche de connaissance appliquée au réel : Dans cette pensée, l’instrument de musique est un élément influant directement sur la politique réelle avec des impacts concrets. C’est une spiritualité de lettré.
 
 _Pour synthétiser :_ La classification _bayin_ s’inscrit dans un système de pensée beaucoup plus large et culturellement marqué. Ce système de pensée empruntant à la fois au confucianisme et au taoïsme nous montre la place des instruments dans la pensée chinoise par le biais de leur classification endogène.
+
 :::
 
 En Inde classification dans le _Nâtyashâstra_, traité sanskrit sur le théâtre, la danse et la musique dû à Bharata Muni datant d'il y a 2000 ans. Il s'agit d'un traité important que nous retrouverons plus tard. Il présente quatre catégories (_vâdya_) :
