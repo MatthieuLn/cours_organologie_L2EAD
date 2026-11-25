@@ -189,47 +189,7 @@ Par "progrès" il est souvent entendu un changement pour un "mieux" rarement dé
 
 L'Asie orientale est une aire géo-culturelle regroupant la Chine, les Corées, le Japon et le Vietnam dans une certaine mesure. Elle se caractérise par des migrations, du commerce, des guerres et invasions, l'utilisation de sinogrammes et le partage de philosophies et croyances. Cela ne signifie évidemment pas qu'il s'agit d'un ensemble homogène. Les différents pays sont culturellement hétérogènes ne serait-ce que d'un point de vue linguistique. 
 
-
-```{r}
-#| echo: false
-#| fig-cap: "Carte de la répartition des familles de langue en Asie-orientale. Données : @hammarstromGlottologCustomDownloads2026"
-
-library(ggplot2)
-
-f <- read.csv("data/languoid.csv")
-d <- read.csv("data/languages_and_dialects_geo.csv")
-d <- merge(d, f[, c("id", "family_id")], by.x = "glottocode", by.y = "id")
-d <- subset(d, level == "language")
-d <- subset(d, level == "language" &
-              longitude > 95 & longitude < 150 &
-              latitude > 18 & latitude < 50)
-
-fam <- setNames(f$name, f$id)
-d$famille <- fam[d$family_id]
-d$famille[is.na(d$famille)] <- "Isolat"
-d <- subset(d, !famille %in% c("Bookkeeping", "Unclassifiable", "Artificial Language", "Sign Language", "Pidgin"))
-
-fr <- c("Sino-Tibetan" = "Sino-tibétain", "Japonic" = "Japonique",
-        "Koreanic" = "Coréanique", "Austroasiatic" = "Austroasiatique",
-        "Tai-Kadai" = "Taï-kadaï", "Hmong-Mien" = "Hmong-mien",
-        "Austronesian" = "Austronésien", "Ainu" = "Ainou", "Indo-European" = "Indo-Européenne", "Mongolic-Khitan" = "Mongolique-Khitane", "Tungusic" = "Toungouse", "Turkic" = "Turcique")
-d$famille <- ifelse(d$famille %in% names(fr), fr[d$famille], d$famille)
-
-ggplot(d, aes(longitude, latitude, colour = famille)) +
-  borders("world", fill = "grey92", colour = "grey60") +
-  geom_point(size = 2, alpha = 0.7) +
-  # geom_text(aes(label = name), size = 3, vjust = -0.8) +
-  coord_quickmap(xlim = c(95, 150), ylim = c(18, 50)) +
-  labs(
-    title = "Répartition des familles de langue en Asie-orientale",
-    colour = "Familles linguistiques"
-  ) +
-  theme_void()+
-  theme(
-   title = element_text(family = "futura"),
-   plot.title = element_text(size = 15)
-  )
-```
+!["Carte de la répartition des familles de langue en Asie-orientale. Données : @hammarstromGlottologCustomDownloads2026"](images/carte%20linguistique.png)
 
 On retrouve une grande variété de cithares sur caisse et de cithares sur table bombée en Asie orientale dont une grande parties comportent des chevalets mobiles. Les chevalets mobiles sont des morceaux de bois faisant le lien entre les cordes et la table d'harmonie et pouvant être glissés le long des cordes pour changer l'échelle jouée par l'instrument.
 
