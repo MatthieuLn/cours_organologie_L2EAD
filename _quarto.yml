@@ -10,6 +10,8 @@ book:
     - intro.qmd
     - Idiophones.qmd
     - Membranophones.qmd
+    - Cordophones.qmd
+    - annexes.qmd
     - references.qmd
 
   page-footer: "Copyright 2026, Matthieu Lainé"
